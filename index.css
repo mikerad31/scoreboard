@@ -1,0 +1,72 @@
+@font-face {
+    font-family: cursed;
+    src: url(cursed.ttf);
+}
+
+@font-face {
+    font-family: chunky;
+    src: url(chunky.otf);
+}
+
+body {
+    margin: 0;
+    background-color: #064E3B;
+    font-family: chunky;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score {
+    background-color: black;
+    color: #10B981;
+    font-size: 65px;
+    font-family: cursed;
+    padding: 8px 45px;
+    letter-spacing: 0;
+    border-radius: 5px;
+
+}
+
+
+.score h3 {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.add {
+    background: none;
+    border: 2px solid #A7F3D0;
+    font-family: cursed;
+    font-size: 15px;
+    padding: 7px;
+    color: #A7F3D0;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.new {
+    background: none;
+    display: block;
+    margin: 0 auto;
+    background: none;
+    border: 2px solid #A7F3D0;
+    font-family: cursed;
+    font-size: large;
+    padding: 7px;
+    color: #A7F3D0;
+    margin-top: 20px;
+    border-radius: 3px;
+}
